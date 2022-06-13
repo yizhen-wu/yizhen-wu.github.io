@@ -1,0 +1,49 @@
+<!DOCTPE html>
+<html style="background-color:#ffdcccf0">
+    <head>
+       
+        
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        
+        <title> try canvas 2</title>
+      
+    </head>
+    <body>        
+        <div style="position:absolute;width: 95%;margin: 10px;">
+            <div id="header" > <h1>try canvas 2</h1>  </div>  
+            
+            <div style="display:flex;padding: 10px;">
+                        
+                <div id ="left" style="background-color:#fff9ecf0;position:relative;width:50%;display: flex;justify-content: flex-end;">
+                   
+                    <canvas id="left_canvas" style="width:100%">  </canvas>
+                </div>
+                                     
+                <div style="position:relative;width:15">     </div>          
+                        
+                    
+                             
+                <div id ="right" style="position:relative;width:50%"> 
+                    <canvas id="right_canvas" style="width:100%">  </canvas>
+                </div>
+            
+            </div>    
+
+
+    
+            
+            <div id="footer" style="background-color:#5d2a42f0;clear:both;text-align:center;height: 100;">
+                try canvas 2
+                
+            </div>
+            
+        </div>
+        <script src="img.js"></script>
+        <script src="testFunction.js"></script>
+        <script src="try_canvas2.js"></script>
+        
+        
+        
+    </body>
+    
+ </html>
